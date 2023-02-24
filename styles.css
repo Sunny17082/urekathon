@@ -1,0 +1,147 @@
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border:.2rem solid var(--green);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+#title{
+    padding: 2% 7%;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.t:hover{
+    background: -webkit-linear-gradient(top, #16a085 0%, #16a085 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2rem;
+}
+
+.icon:hover{
+    font-size: 5rem;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    color:var(--black);
+    font-size: 3rem;
+    letter-spacing: .4rem;
+    font-weight: bold;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color:var(--green);
+}
+
+.container-fluid{
+    padding: 1% 15% 1%;
+}
+.navbar{
+    margin-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem; 
+}
+
+.cont h3{
+    font-size: 2.5rem;
+    color:var(--black);
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+    font-weight: bold;
+}
+.cont p{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.title-image{
+    width:95%;
+    height:100%;
+}
+.cont{
+    padding: 5%;
+    text-align: center;
+}
+
+#review {
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-star {
+    margin: 40px 0px;
+}
+
+#features{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.feauture-box{
+    padding: 15%;
+}
+
+.db{
+    margin-top: 15%;
+}
+
+.icon{
+    color: #16a085;
+    margin-bottom: 1rem;
+}
+
+.h{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.g{
+    color: #8f8f8f;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.footer-para{
+    color: #8f8f8f;
+}
+.ico{
+    padding: 20px 10px;
+}
