@@ -215,3 +215,7 @@
 .card-body img{
     width:60%;
 }
+
+.card-title{
+    font-weight: bold;
+}
